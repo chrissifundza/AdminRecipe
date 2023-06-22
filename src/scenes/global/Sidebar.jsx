@@ -209,13 +209,7 @@ const Sidebar = () => {
             >
               Data
             </Typography>
-            <Item
-              title="All Users"
-              to="/team"
-              icon={<PeopleOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+           
             {/* <Item
               title="Shops Products"
               to="/contacts"
@@ -238,13 +232,7 @@ const Sidebar = () => {
             >
               Pages
             </Typography>
-            <Item
-              title="Add User"
-              to="/form"
-              icon={<PersonOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+           
              {/* <Item
               title="Add Shop"
               to="/shop"
